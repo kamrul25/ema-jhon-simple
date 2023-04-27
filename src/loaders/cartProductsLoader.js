@@ -21,7 +21,7 @@ const cartProductsLoader = async () => {
   // return [products, savedCart]
   // another options
   // return { products, cart: savedCart }
-  return products;
+  return savedCart;
 };
 
 export default cartProductsLoader;
